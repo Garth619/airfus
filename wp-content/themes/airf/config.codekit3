@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,6 +104,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_section-one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_section-three.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_section-three.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_section-two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_section-two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -222,6 +261,40 @@
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-2.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
+	"\/images\/africa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/africa.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/screenshot.png": {
 		"ft": 32768,
 		"iS": 57403,
@@ -233,6 +306,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/team-pic.jpg": {
+		"ft": 16384,
+		"iS": 15192,
+		"oA": 0,
+		"oAP": "\/images\/team-pic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/welcome.jpg": {
 		"ft": 16384,
 		"iS": 221758,
@@ -242,6 +325,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/world.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/world.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/index.php": {
 		"cB": 0,

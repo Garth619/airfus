@@ -1,0 +1,40 @@
+.learn_more_wrapper {
+
+	span.learn_more {
+		
+	}
+	img.arrow {
+		animation-name: arrow_move;
+		animation-duration: 2700ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+	}
+}
+
+
+
+
+@keyframes arrow_move {
+  0% {
+    // opacity: 0;
+    transform: translateY(0);
+ 	}
+
+  50% {
+    // opacity: 1;
+    transform: translateY(15px);
+    
+  }
+  
+ 100% {
+    // opacity: 0;
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+

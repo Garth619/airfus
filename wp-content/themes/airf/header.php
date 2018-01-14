@@ -37,36 +37,40 @@
 	
 <header>
 	
-	<a class="logo" href="<?php bloginfo('url');?>">
+	<div class="header_inner">
+	
+		<a class="logo" href="<?php bloginfo('url');?>">
 		
-		<div class="large_header">
+			<div class="large_header">
 			
-			<span class="white">Airfus</span><span class="dark"><span class="dot">.</span>org</span>
+				<span class="white">Airfus</span><span class="dark"><span class="dot">.</span>org</span>
 		
-		</div><!-- large_header -->
+			</div><!-- large_header -->
 		
-		<span class="small_header">Alliance International Rescue Foundation</span><!-- small_header -->
+			<span class="small_header">Alliance International Rescue Foundation</span><!-- small_header -->
 		
-	</a>
+		</a>
 	
 	
-	<div class="header_right">
+		<div class="header_right">
 		
-		<span class="call_us">Call Us Today</span><!-- call_us -->
+			<span class="call_us">Call Us Today</span><!-- call_us -->
 		
-		<a class="tel" href="tel:(913) 636-5090">(913) 636-5090</a>
+			<a class="tel" href="tel:(913) 636-5090">(913) 636-5090</a>
 		
-		<div class="menu_wrapper">
+			<div class="menu_wrapper">
 			
-			<span class="menu_title">Menu</span><!-- menu_title -->
+				<span class="menu_title">Menu</span><!-- menu_title -->
 			
-			<div class="menu_bar"></div><!-- menu_bar -->
-			<div class="menu_bar"></div><!-- menu_bar -->
-			<div class="menu_bar"></div><!-- menu_bar -->
+				<div class="menu_bar"></div><!-- menu_bar -->
+				<div class="menu_bar"></div><!-- menu_bar -->
+				<div class="menu_bar"></div><!-- menu_bar -->
 			
-		</div><!-- menu_wrapper -->
+			</div><!-- menu_wrapper -->
 
-	</div><!-- header_right -->
+		</div><!-- header_right -->
+	
+	</div><!-- header_inner -->
 	
 </header>	
 	
