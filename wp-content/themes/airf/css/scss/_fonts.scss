@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('#{$themePath}fonts/Lato-Bold.woff2') format('woff2'),
+        url('#{$themePath}fonts/Lato-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('#{$themePath}fonts/Oswald-Bold.woff2') format('woff2'),
+        url('#{$themePath}fonts/Oswald-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url('#{$themePath}fonts/Oswald-SemiBold.woff2') format('woff2'),
+        url('#{$themePath}fonts/Oswald-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('#{$themePath}fonts/Lato-Regular.woff2') format('woff2'),
+        url('#{$themePath}fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
