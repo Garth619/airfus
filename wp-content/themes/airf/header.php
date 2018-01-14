@@ -49,6 +49,25 @@
 		
 	</a>
 	
+	
+	<div class="header_right">
+		
+		<span class="call_us">Call Us Today</span><!-- call_us -->
+		
+		<a class="tel" href="tel:(913) 636-5090">(913) 636-5090</a>
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+			<div class="menu_bar"></div><!-- menu_bar -->
+			<div class="menu_bar"></div><!-- menu_bar -->
+			<div class="menu_bar"></div><!-- menu_bar -->
+			
+		</div><!-- menu_wrapper -->
+
+	</div><!-- header_right -->
+	
 </header>	
 	
 
