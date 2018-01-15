@@ -1,0 +1,85 @@
+#section_five {
+	width:100%;
+	background: $bluedark;
+	padding:170px 0;
+}
+
+
+.sec_five_inner {
+	max-width:1490px;
+	margin-left:auto;
+	margin-right:auto;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	
+}
+
+
+
+.sec_five_content {
+	span.sec_five_header {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $oswaldsemobold;
+		font-size:101px;
+		line-height: 99px;
+		position: relative;
+		margin-bottom:30px;
+		display: block;
+		&:before {
+			content: url(#{$themePath}images/donation.svg);
+			display: block;
+			width:127px;
+			height:116px;
+			position: absolute;
+			top:7px;
+			right:-28px;
+		}
+	}
+	color:#fff;
+	font-family: $lato;
+	font-size:22px;
+	line-height: 28px;
+	letter-spacing: 1px;
+
+	max-width: 500px;
+	float:left;
+	p,ul {
+		margin-bottom:30px;
+	}
+	ul {
+		margin-left:30px;
+	}
+	a {
+		color:$green;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	a.donate_button {
+		background: #6fb75e;
+		color:#fff;
+		font-size: 22px;
+		text-transform: uppercase;
+		font-family: $latobold;
+		letter-spacing: 2px;
+		padding:16px 65px;
+		margin-top:12px;
+		display: inline-block;
+	}
+}
+
+
+img.photo {
+	float:right;
+	transform: rotate(1deg);
+	margin:21px 0 0;
+}
+
+
+
+
