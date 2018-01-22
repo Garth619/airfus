@@ -22,7 +22,7 @@ a.logo {
 	text-decoration: none;
 	margin-top:37px;
 	.large_header {
-		font-size: 121px;
+		font-size: 115px;
 		text-transform: uppercase;
 		font-family: $oswaldsemobold;
 		letter-spacing: 2px;
@@ -40,7 +40,7 @@ a.logo {
 	span.small_header {
 		font-family: $latobold;
 		color:$greenbright;
-		font-size: 21px;
+		font-size: 20px;
 		text-transform: uppercase;
 		letter-spacing: 2.4px;
 		display: block;
@@ -71,6 +71,7 @@ a.logo {
 	}
 	.menu_wrapper {
 		width:53px;
+		display: none;
 		text-align: center;
 		margin-left:25px;
 		cursor: pointer;
@@ -89,3 +90,91 @@ a.logo {
 	}
 	
 }
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+a.logo {
+	
+	.large_header {
+		font-size: 58px;
+		span.white {
+			
+		}
+		span.dark {
+			
+		}
+		span.dot {
+			font-size: 69px;
+		}
+	}
+	span.small_header {
+		max-width: 320px;
+		display: block;
+		font-size: 18px;
+		letter-spacing: 3.3px;
+	}
+}
+
+
+.header_right {
+	display: block;
+	text-align: right;
+	margin-top: 52px;
+	span.call_us {
+		// display: none;
+		display: block;
+		margin-right:0;
+	}
+	a.tel {
+		display: block;
+		margin-top: 8px;
+	}
+}
+	
+	header {
+		padding:0 45px;
+	}
+	
+	.header_inner {
+		max-width: 100%;
+		
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	header {
+		padding:20px 0 0;
+	}
+	
+	.header_inner {
+		display: block;
+		text-align: center;
+	}
+	
+	
+	a.logo {
+		span.small_header {
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	
+	
+	.header_right {
+		text-align: center;
+	}
+	
+	
+	
+	
+} /* Media Query */

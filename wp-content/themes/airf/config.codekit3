@@ -418,6 +418,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new.jpg": {
+		"ft": 16384,
+		"iS": 20217,
+		"oA": 0,
+		"oAP": "\/images\/new.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/photo.jpg": {
 		"ft": 16384,
 		"iS": 81817,
@@ -426,6 +436,46 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/pic3.jpg": {
+		"ft": 16384,
+		"iS": 22254,
+		"oA": 0,
+		"oAP": "\/images\/pic3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pic4.jpg": {
+		"ft": 16384,
+		"iS": 40043,
+		"oA": 0,
+		"oAP": "\/images\/pic4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pic5.jpg": {
+		"ft": 16384,
+		"iS": 36870,
+		"oA": 0,
+		"oAP": "\/images\/pic5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/placholder.jpg": {
+		"ft": 16384,
+		"iS": 2992,
+		"oA": 0,
+		"oAP": "\/images\/placholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/rcm.png": {
@@ -449,6 +499,36 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/social-g+-hover.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-g+-hover.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-in.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-in.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-t.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-t.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/team-pic.jpg": {
 		"ft": 16384,

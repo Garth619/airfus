@@ -19,7 +19,27 @@
 			
 			<div class="single_team">
 				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
+				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/new.jpg"/>
+				
+				<span class="name">Abdishakur Ali</span><!-- name -->
+				
+				<span class="position">Designate<br/> Principal Officer</span><!-- position -->
+				
+			</div><!-- single_team -->
+			
+			<div class="single_team">
+				
+				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic3.jpg"/>
+				
+				<span class="name">Muna Muday</span><!-- name -->
+				
+				<span class="position">Secretary</span><!-- position -->
+				
+			</div><!-- single_team -->
+			
+			<div class="single_team">
+				
+				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic4.jpg"/>
 				
 				<span class="name">Omar Nassib</span><!-- name -->
 				
@@ -29,41 +49,21 @@
 			
 			<div class="single_team">
 				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
+				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic5.jpg"/>
 				
-				<span class="name">Omar Nassib</span><!-- name -->
+				<span class="name">Said Abiyow</span><!-- name -->
 				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
-				
-			</div><!-- single_team -->
-			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
-				
-				<span class="name">Omar Nassib</span><!-- name -->
-				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
+				<span class="position">Chief Financial<br/> Officer</span><!-- position -->
 				
 			</div><!-- single_team -->
 			
 			<div class="single_team">
 				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
+				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/placholder.jpg"/>
 				
-				<span class="name">Omar Nassib</span><!-- name -->
+				<span class="name">Abdulkadir Abdi</span><!-- name -->
 				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
-				
-			</div><!-- single_team -->
-			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
-				
-				<span class="name">Omar Nassib</span><!-- name -->
-				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
+				<span class="position">Community<br/> Trustee Officer</span><!-- position -->
 				
 			</div><!-- single_team -->
 			

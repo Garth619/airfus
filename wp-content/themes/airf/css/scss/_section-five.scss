@@ -6,9 +6,11 @@
 
 
 .sec_five_inner {
-	max-width:1490px;
+	max-width:1630px;
 	margin-left:auto;
 	margin-right:auto;
+	padding-left:70px;
+	padding-right:70px;
 	&:after {
 		content:"";
 		clear:both;
@@ -29,14 +31,15 @@
 		position: relative;
 		margin-bottom:30px;
 		display: block;
+		max-width: 500px;
 		&:before {
 			content: url(#{$themePath}images/donation.svg);
 			display: block;
 			width:127px;
 			height:116px;
 			position: absolute;
-			top:7px;
-			right:-28px;
+			top: -29px;
+			right: 52px;
 		}
 	}
 	color:#fff;
@@ -70,6 +73,11 @@
 		padding:16px 65px;
 		margin-top:12px;
 		display: inline-block;
+		transition: all .2s ease-in-out;
+		text-decoration: none;
+		&:hover {
+			background: #48a232;
+		}
 	}
 }
 
@@ -78,8 +86,160 @@ img.photo {
 	float:right;
 	transform: rotate(1deg);
 	margin:21px 0 0;
+	max-width:100%;
+	height:auto;
 }
 
 
+@media screen and (max-width: 1540px) {
+	
+	
+	
 
+	
+	.sec_five_content {
+		width:580px;
+		
+	}
+	
+	img.photo {
+		width:calc(100% - 580px);
+	}
+	
+	
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1490px) {
+	
+	
+	img.photo {
+		margin-top:65px;
+	}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1330px) {
+	
+
+	
+	.sec_five_content {
+		width:100%;
+		float:none;
+		max-width:100%;
+		max-width:700px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+		span.sec_five_header {
+			margin-left:auto;
+			margin-right:auto;
+			&:before {
+				right: -42px;
+			}
+		}
+	}
+	
+	img.photo {
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:80px;
+		display: block;
+		width:100%;
+		max-width: 500px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	#section_five {
+  	padding: 120px 0;
+  }
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	#section_five {
+		padding: 66px 0;
+	}
+	
+	.sec_five_content {
+		span.sec_five_header {
+			font-size: 80px;
+			line-height: 81px;
+			max-width: 369px;
+			&:before {
+				width: 93px;
+				height: 86px;
+			}
+		}
+	} 
+	
+	
+	.sec_five_inner {
+		padding-left:26px;
+		padding-right:26px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 520px) {
+	
+	
+	#section_five {
+		padding: 66px 0 96px;
+	}
+	
+	.sec_five_content {
+		p {
+			font-size:19px;
+		}
+		a.donate_button {
+			font-size: 20px;
+		}
+		span.sec_five_header {
+			font-size: 60px;
+			line-height: 60px;
+			&:before {
+				position: static;
+				margin-left:auto;
+				margin-right:auto;
+				margin-bottom:10px;
+			}
+		}
+	} 
+	
+	
+	img.photo {
+		margin-top: 53px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 

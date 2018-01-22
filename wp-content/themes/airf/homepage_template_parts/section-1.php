@@ -4,7 +4,7 @@
 		
 		<span class="cta">Lorem Ipsum Dolor Sit</span><!-- cta -->
 		
-		<a class="cta_button" href="">Contact Us</a>
+		<a class="cta_button" href="#section_six">Contact Us</a>
 		
 		<div class="learn_more_wrapper">
 			

@@ -16,9 +16,10 @@
 		color:#fff;
 		text-transform: uppercase;
 		display: block;
-		font-size: 78px;
+		font-size: 70px;
 		font-family: $oswaldsemobold;
 		letter-spacing: 3px;
+		max-width: 940px;
 	}
 	a.cta_button {
 		color:#fff;
@@ -58,6 +59,66 @@
 		width:42px;
 	}
 }
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	#section_one {
+		padding:0 45px;
+		height: 870px;
+	}
+	
+	
+	.sec_one_inner {
+		span.cta {
+			font-size: 57px;
+		}
+	} 
+	
+	
+	
+	.learn_more_wrapper {
+     bottom: 52px;
+     span.learn_more {
+	     font-size: 18px;
+     }
+   }
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	#section_one {
+		min-height: 834px;
+		height:auto;
+		background:linear-gradient(rgba(48, 153, 233, 0.9), rgba(48, 153, 233, 0.9)) repeat scroll 0 0%, rgba(48, 153, 233, 0.9) url(#{$themePath}images/welcome.jpg) top center no-repeat;
+		background-position: 70% top;
+		padding:0 26px;
+	}
+	
+	.sec_one_inner {
+		span.cta {
+			max-width: 530px;
+			font-size: 47px;
+		}
+		a.cta_button {
+			font-size: 22px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
 
 
 

@@ -7,10 +7,11 @@
 
 
 .sec_six_inner {
-	max-width:975px;
+	max-width:1115px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
+	padding:0 70px;
 }
 
 
@@ -75,7 +76,7 @@ a.contact_tel {
 				font-family: $latobold;
 				text-transform: uppercase;
 				color:#fff;
-				font-size:22px;
+				font-size:20px;
 				display: block;
 				margin-bottom:11px;
 				letter-spacing: 1.5px;
@@ -122,4 +123,76 @@ a.contact_tel {
 	}
 }
 
+
+@media screen and (max-width: 767px) {
+	
+	
+	#section_six {
+		padding: 69px 0 12px;
+		img {
+			height: 38px;
+		}
+	}
+	
+	a.contact_tel {
+		margin-top: 21px;
+	}
+	
+	
+	.sec_six_inner {
+		padding:0 26px;
+	}
+	
+	
+	span.sec_six_title {
+		font-size:80px;
+	}
+	
+	
+	.form_wrapper {
+		ul {
+			li {
+				width:100%;
+				&:nth-of-type(2n + 1) {
+					float:none;
+				}
+				&:nth-of-type(2n + 2) {
+					float:none;
+				}
+				input {
+					padding: 14px;
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 500px) {
+	
+	
+	span.sec_six_title {
+		font-size:60px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width:400px) {
+	
+	
+/*
+	span.sec_six_title {
+		font-size:50px;
+	}
+	
+*/
+	
+} /* Media Query */
 
