@@ -2,7 +2,7 @@
 	
 	<div class="sec_one_inner">
 		
-		<span class="cta">Lorem Ipsum Dolor Sit</span><!-- cta -->
+		<span class="cta"><?php the_field( 'section_one_header' ); ?></span><!-- cta -->
 		
 		<a class="cta_button" href="#section_six">Contact Us</a>
 		

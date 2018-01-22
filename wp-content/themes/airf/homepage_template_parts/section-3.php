@@ -3,69 +3,45 @@
 	
 	<div class="sec_three_inner">
 	
-		<span class="team_title">Meet the Team</span><!-- team_title -->
+		<span class="team_title"><?php the_field( 'section_three_title' ); ?></span><!-- team_title -->
 		
 		<div class="team_wrapper">
 			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/team-pic.jpg"/>
-				
-				<span class="name">Omar Nassib</span><!-- name -->
-				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
-				
-			</div><!-- single_team -->
 			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/new.jpg"/>
-				
-				<span class="name">Abdishakur Ali</span><!-- name -->
-				
-				<span class="position">Designate<br/> Principal Officer</span><!-- position -->
-				
-			</div><!-- single_team -->
 			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic3.jpg"/>
-				
-				<span class="name">Muna Muday</span><!-- name -->
-				
-				<span class="position">Secretary</span><!-- position -->
-				
-			</div><!-- single_team -->
+			<?php if(get_field('team_members')): ?>
+			 
+				<?php while(has_sub_field('team_members')): ?>
+
+					
+					<div class="single_team">
+						
+						<?php $image = get_sub_field( 'image' ); ?>
+						
+						<?php if ( $image ) : ?>
 			
-			<div class="single_team">
+							<img class="team_pic" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+							
+							<?php else :?>
+							
+							<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/placholder.jpg"/>
+							
+		
+						<?php endif; ?>
 				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic4.jpg"/>
+						
 				
-				<span class="name">Omar Nassib</span><!-- name -->
+						<span class="name"><?php the_sub_field( 'name' ); ?></span><!-- name -->
 				
-				<span class="position">Appointment<br/> Of Officers</span><!-- position -->
+						<span class="position"><?php the_sub_field( 'position' ); ?></span><!-- position -->
 				
-			</div><!-- single_team -->
-			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/pic5.jpg"/>
-				
-				<span class="name">Said Abiyow</span><!-- name -->
-				
-				<span class="position">Chief Financial<br/> Officer</span><!-- position -->
-				
-			</div><!-- single_team -->
-			
-			<div class="single_team">
-				
-				<img class="team_pic" src="<?php bloginfo('template_directory');?>/images/placholder.jpg"/>
-				
-				<span class="name">Abdulkadir Abdi</span><!-- name -->
-				
-				<span class="position">Community<br/> Trustee Officer</span><!-- position -->
-				
-			</div><!-- single_team -->
+					</div><!-- single_team -->
+
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+
 			
 		</div><!-- team_wrapper -->
 	

@@ -56,7 +56,7 @@
 		
 			<span class="call_us">Call Us Today</span><!-- call_us -->
 		
-			<a class="tel" href="tel:(913) 636-5090">(913) 636-5090</a>
+			<a class="tel" href="tel:<?php the_field( 'phone_number' ); ?>"><?php the_field( 'phone_number' ); ?></a>
 		
 			<div class="menu_wrapper">
 			

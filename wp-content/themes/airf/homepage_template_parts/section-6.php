@@ -6,17 +6,33 @@
 		
 		<div class="social_media">
 			
-			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/fb.svg"/></a>
+			<?php if(get_field('facebook_url')) { ?>
 			
-			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/instagram.svg"/></a>
+				<a class="" href="<?php the_field( 'facebook_url' ); ?>" target="blank"><img src="<?php bloginfo('template_directory');?>/images/fb.svg"/></a>
 			
-			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+			<?php } ?>
 			
-			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/></a>
+			<?php if(get_field('instagram_url')) { ?>
+			
+				<a class="" href="<?php the_field( 'instagram_url' ); ?>" target="blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.svg"/></a>
+			
+			<?php } ?>
+			
+			<?php if(get_field('twitter_url')) { ?>
+			
+				<a class="" href="<?php the_field( 'twitter_url' ); ?>" target="blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+			
+			<?php } ?>
+			
+			<?php if(get_field('google_plus_url')) { ?>
+			
+				<a class="" href="<?php the_field( 'google_plus_url' ); ?>" target="blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/></a>
+			
+			<?php } ?>
 			
 		</div><!-- social_media -->
 		
-		<a class="contact_tel" href="tel:(913) 636-5090">(913) 636-5090</a>
+		<a class="contact_tel" href="tel:<?php the_field( 'phone_number' ); ?>"><?php the_field( 'phone_number' ); ?></a>
 		
 		<div class="form_wrapper">
 		

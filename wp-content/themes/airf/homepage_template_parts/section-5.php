@@ -6,9 +6,9 @@
 			
 			<span class="sec_five_header">Make a<br/> Donation</span><!-- sec_five_header -->
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p> 
+			<?php the_field( 'section_five_content' ); ?>
 			
-			<a class="donate_button" href="" target="_blank">Donate</a><!-- donate_button -->
+			<a class="donate_button" href="<?php the_field( 'donation_link' ); ?>" target="_blank">Donate</a><!-- donate_button -->
 			
 			</div><!-- sec_five_content -->
 			

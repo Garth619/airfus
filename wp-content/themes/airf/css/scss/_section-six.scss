@@ -81,7 +81,7 @@ a.contact_tel {
 				margin-bottom:11px;
 				letter-spacing: 1.5px;
 			}
-			input {
+			input, textarea {
 				border:none;
 				background: #f3ac6b;
 				font-size:22px;
@@ -109,6 +109,10 @@ a.contact_tel {
 		padding:20px 75px;
 		margin-top:20px;
 		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: #000;
+		}
 	}
 	.validation_error {
 		display: none;
@@ -121,6 +125,14 @@ a.contact_tel {
 		font-size: 13px;
 		letter-spacing: 1.5px;
 	}
+}
+
+
+.gform_confirmation_message {
+	color:#fff;
+	font-family: $lato;
+	font-size: 30px;
+	padding:0 25px;
 }
 
 

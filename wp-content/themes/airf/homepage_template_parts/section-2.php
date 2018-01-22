@@ -4,9 +4,9 @@
 		
 		<div class="sec_two_content">
 			
-			<span class="header_title">We Are<br/> Here<br/> To Help</span><!-- header_title -->
+			<span class="header_title">We Are<br/> Here<br/> To Help</span>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&nbsp;cillum.</p>
+			<p><?php the_field( 'section_two_content' ); ?></p>
 			
 		</div><!-- sec_two_content -->
 		
